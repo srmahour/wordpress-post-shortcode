@@ -1,0 +1,12 @@
+/*trending post grid*/
+.trending-post-grid .post-item { position: relative;}
+.trending-post-grid {position: relative;display: flex;flex-wrap: wrap;}
+.trending-post-grid .post-item {position: relative;width: calc(100%/4 - 20px);margin: 10px;}
+.trending-post-grid .post_number {position: absolute;font-size: 12px;background: #b30010;color: #fff;height: 25px;width: 25px;line-height: 25px;border-radius: 100px;left: 10px;top: 15px;}
+.trending-post-grid .post-img {height: auto;width: 100%;margin: 0 auto;}
+.trending-post-grid .post-detail {text-align: center;padding: 0;margin: 0;display: block;}
+.trending-post-grid .post-detail .post_content {padding: 10px 0;}
+.trending-post-grid .post-detail .post_content h5 {display: none;}
+.trending-post-grid .post-detail .post_content h3 {font-size: 16px;}
+.trending-post-grid .post-detail .post_content .author-date {font-size: 10px;}
+/*trending post grid end*/
